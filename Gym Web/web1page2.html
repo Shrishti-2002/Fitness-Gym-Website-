@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="web1page2.css">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form Here action="backend.php">
+        <h1>Join Fitnest Gym Now!! </h1>
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="name" placeholder="Enter Your Name" class="form">
+        </div>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="email" placeholder="Enter Your Email" class="form">
+        </div>
+        <label for="num">Mobile Number</label>
+        <div>
+            <input type="tel" name="num" placeholder="Enter Your Mobile Number " class="form">
+        </div>
+        <label for="password">Password</label>
+        <div>
+            <input type="password" name="password" placeholder="Enter Password" class="form">
+        </div>
+        
+        <label class="label" for="package">Which Package Do You Want??</label>
+        <select name="package" id="select">
+            <option value="Regular">Regular</option>
+            <option value="Weekend">Weekend</option>
+            <option value="MWF(Monday,Wednesday,Friday)">MWF(Monday,Wednesday,Friday)</option>
+            <option value="TTS(Tuesday,Thursday,Saturday)">TTS(Tuesday,Thursday,Saturday)</option>
+        </select>
+        <div>
+            <input type="submit" value="SUBMIT" id="submit">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

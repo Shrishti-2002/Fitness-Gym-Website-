@@ -1,0 +1,51 @@
+body{
+    background: url(fitness.jpg);
+}
+.form{
+    margin: 4px;
+    padding: 17px;
+    border: 2px solid cornsilk;
+    border-radius: 12px;
+    width: 415px;
+    background-color:rgb(255, 255, 255) ;
+
+}
+form{
+    margin: 23px;
+    padding: 21px;
+    /* border: crimson solid 2px; */
+    width: 500px;
+}
+h1{
+    color: #18e4e5;
+    text-align: center;
+    position: relative;
+    left: -23px;
+    font-family: 'New Tegomin', serif;
+    
+}
+#select{
+    margin: 16px;
+    margin-left: 12px;
+    
+}
+.label{
+    color: rgb(69 100 124);
+    margin-left: 12px;
+}
+#submit{
+    border-radius: 12px;
+    margin-left: 99px;
+    padding: 10px;
+    width: 200px;
+    /* background: black; */
+    /* color: blanchedalmond; */
+    color: blue;
+    
+}
+#submit:hover{
+   color: chartreuse;
+}
+option{
+    font-size: 13px;
+}

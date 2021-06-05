@@ -1,0 +1,83 @@
+body{
+    background: url(people-2604149_1920.jpg);
+    color: blanchedalmond;
+    
+}
+.left{display: inline-block;
+text-align: left;
+/* margin: 20px 12px; */
+/* border: crimson solid 2px; */
+position: absolute;
+top: 20px;
+
+}
+.left img{
+    height: 64px;
+    width: 75px;
+    /* align-items: center; */
+    margin-left: 12px;
+}
+.left h3{
+    margin: -6px;
+    padding: 9px;
+    text-align: center;
+}
+.mid{
+text-align: center ;
+margin: 10px auto;
+/* border: cyan 2px solid; */
+width: 46%;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    margin:  0px 12px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 12px;
+}
+.navbar li a:hover{
+    color: rgb(224, 223, 223);
+    
+}
+.navbar li a:active{
+    color: rgb(40, 38, 180);
+    
+}
+.right{ 
+    position: absolute;
+    left: 1143px;
+    top: 16px;
+text-align: right;
+/* border: darkgreen 2px solid; */
+display: inline-block;
+/* margin-right: 12px; */
+padding: 12px;
+
+
+}
+.right a{
+    /* margin: -4px;
+    padding: 4px; */
+    /* border-radius: 12px; */
+    text-decoration: none;
+    color: white;
+    margin: 12px;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+.reg:hover{
+    color: blue;
+}
+.login:hover{
+    /* margin: 12px; */
+    
+    color: red;
+
+}

@@ -1,0 +1,35 @@
+body{
+    background: url(fitness.jpg);
+    color: white;
+}
+.input{
+    margin-left: 23px;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    width: 231px;
+    text-decoration: none;
+}
+form{
+    margin:23px 12px;
+    padding: 12px;
+    /* border: red solid 2px; */
+    border-radius: 12px;
+
+}
+.submit{
+    margin-top: 7px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+h2{
+    margin-left: 23px;
+    font-family: 'Satisfy', cursive;
+    color: cadetblue;
+}
+form a:hover{
+color: green;
+}
+a{
+    margin-top: 12px;
+}
